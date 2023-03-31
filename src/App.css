@@ -1,4 +1,3 @@
-
 .App-header {
 
   min-height: 100vh;
@@ -9,7 +8,18 @@
   color: black;
 }
 
-.container{
-  background-color: red;
+.container {
+  border-width: 10;
+  border-color: black;
   align-items: center;
 }
+
+.buttonMove {
+  background-color: '#00FFFF';
+  border-radius: 100;
+}
+
+.reasons{
+  border-radius: 50;
+}
+
