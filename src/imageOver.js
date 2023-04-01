@@ -8,16 +8,12 @@ import CJF10 from '../src/CJF10.png'
 import CJF12 from '../src/CJF12.png'
 import Move from './button'
 
-const repeatingBg = {
-    backgroundImage: `url(${CJF12})`,
-    backgroundRepeat: 'repeat',
-  };
-
 const Start = (props) => {
+
     return (
-        <div>
-            <div className="container" >
-                <div style={{ alignItems: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column',  padding:200 }}>
+        <div style={{ backgroundColor: '#61FF00'}}>
+            <div className="container">
+                <div style={{ alignItems: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column',  padding:100 }}>
                     <img src={CJF1} alt="Image 1" style={{ marginRight: '-50px', width: 1000, height: 350 }} />
                     <img src={CJF7} alt="Image 2" style={{ marginRight: '500px', marginTop: -75, width: 500, height: 350 }} />
                     <img src={CJF8} alt="Image 3" style={{ marginRight: '-200px', marginTop: -300, width: 500, height: 250 }} />
@@ -28,9 +24,6 @@ const Start = (props) => {
                     <h1 style={{marginRight: '-700px', marginTop: 0,}}>Top reasons <br></br>why he sucks:</h1>
                     <div style={{marginRight: '-700px', marginTop: 0,}}>
                         <Move />
-                    </div>
-                    <div style={{ backgroundColor: 'red' }}>
-                        <h1>Test</h1>
                     </div>
                 </div>
             </div>

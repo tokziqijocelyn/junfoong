@@ -3,9 +3,9 @@ import './App.css';
 
 const Reasons = () => {
     return (
-    <div>
-        kjshrjkhsejlkfhkjshefkhse
-    </div>)
+        <div className='reasons' style={{padding:100}}>
+            <h1>REASONS</h1>
+        </div>)
 }
 
 export default Reasons

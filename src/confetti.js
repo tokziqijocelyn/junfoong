@@ -1,13 +1,14 @@
 import React from 'react'
-import useWindowSize from 'react-use-window-size';
 import Confetti from 'react-confetti'
+import { useRef } from 'react';
 
 const ConfettiEffect = () => {
-  const { width, height } = useWindowSize()
+  const windowSize = useRef([window.innerWidth, window.innerHeight]);
   return (
+
     <Confetti
-      width={width}
-      height={height}
+      width={windowSize.current[0]}
+      height={windowSize.current[1]}
     />
   )
 }

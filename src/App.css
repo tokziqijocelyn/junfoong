@@ -1,5 +1,4 @@
 .App-header {
-
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,6 +19,7 @@
 }
 
 .reasons{
-  border-radius: 50;
+  background-color: #EB00FF;
+
 }
 
