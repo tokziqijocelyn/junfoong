@@ -10,24 +10,22 @@ import Move from './button'
 
 const Start = (props) => {
     return (
-        <div style={{ position: 'sticky' }}>
+        <div>
             <div className="container">
-                <div style={{ position: 'relative' }}>
-                    <img src={CJF1} alt="Image 1" style={{ position: 'absolute', top: 0, left: -500, width: 1000, height: 350 }} />
-                    <img src={CJF7} alt="Image 2" style={{ position: 'absolute', top: 250, left: -500, width: 500, height: 350 }} />
-                    <img src={CJF8} alt="Image 3" style={{ position: 'absolute', top: 370, left: -100, width: 300, height: 250 }} />
+                <div style={{ alignItems: 'center', justifyContent: 'center', display:'flex', flexDirection:'column', backgroundColor:'red'  }}>
+                    <img src={CJF1} alt="Image 1" style={{ marginRight: '-50px',  width: 1000, height: 350}}/>
+                    <img src={CJF7} alt="Image 2" style={{ marginRight: '500px', marginTop:-75, width: 500, height: 350 }}/>
+                    <img src={CJF8} alt="Image 3" style={{ marginRight: '-200px', marginTop:-300, width: 500, height: 250}} />
+                    <img src={CJF12} alt="Image 5" style={{ marginRight: '00px', marginTop:-100, width: 250, height: 400 }} />
+                    <img src={CJF9} alt="Image 4" style={{ marginRight: '700px', marginTop:-400 , width: 300, height: 1000}} />
+                    <img src={CJF9} alt="Image 4" style={{ marginRight: '375px', marginTop:-900 , width: 200, height: 1000}} />
+                    <img src={CJF10} alt="Image 5" style={{  }} />
 
-                    <h1 style={{ position: 'absolute', top: 400, left: 300, width: 300, height: 200 }}>Top 10 reasons why he suk</h1>
-
-                    <img src={CJF12} alt="Image 5" style={{ position: 'absolute', top: 600, left: -200, width: 350, height: 500 }} />
-
-                    <img src={CJF9} alt="Image 4" style={{ position: 'absolute', top: 350, left: -600, width: 300, height: 1000 }} />
-                    <img src={CJF9} alt="Image 4" style={{ position: 'absolute', top: 450, left: -400, width: 200, height: 600 }} />
-
-                    <img src={CJF10} alt="Image 5" style={{ position: 'absolute', top: 450, left: -500, width: 350, height: 400 }} />
-
-                    <div style={{ position: 'absolute', top: 1000, left: 300, width: 300, height: 400 }}>
+                    <div style={{  }}>
                         <Move />
+                    </div>
+                    <div style={{backgroundColor:'red'}}>
+                        <h1>Test</h1>
                     </div>
                 </div>
             </div>
