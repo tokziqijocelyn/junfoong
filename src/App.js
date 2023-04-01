@@ -1,5 +1,4 @@
 import './App.css';
-import React, { useState } from 'react';
 import Start from './imageOver'
 import Reasons from './reasons'
 import Confetti from './confetti';

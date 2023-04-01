@@ -1,8 +1,8 @@
 import React from 'react'
-import useWindowSize from 'react-use/lib/useWindowSize'
+import useWindowSize from 'react-use-window-size';
 import Confetti from 'react-confetti'
 
-export default () => {
+const ConfettiEffect = () => {
   const { width, height } = useWindowSize()
   return (
     <Confetti
@@ -11,3 +11,5 @@ export default () => {
     />
   )
 }
+
+export default ConfettiEffect
