@@ -23,7 +23,7 @@ const Start = (props) => {
                     <img src={CJF10} alt="Image 5" style={{ marginRight: '800px', marginTop: -200, width: 400, height: 300 }} />
                     <h1 style={{marginRight: '-700px', marginTop: 0,}}>Top reasons <br></br>why he sucks:</h1>
                     <div style={{marginRight: '-700px', marginTop: 0,}}>
-                        <Move />
+                        <Move handleClick={props.handleClick} />
                     </div>
                 </div>
             </div>
