@@ -33,18 +33,6 @@ function App() {
 
         <Start handleClick={handleClick} />
       </header>
-      <div style={{ backgroundColor: "red", padding: 100 }}>
-      </div>
-      <div style={{ backgroundColor: "red", padding: 100 }}>
-      </div>
-      <div style={{ backgroundColor: "red", padding: 100 }}>
-      </div>
-      <div style={{ backgroundColor: "red", padding: 100 }}>
-      </div>
-      <div style={{ backgroundColor: "red", padding: 100 }}>
-      </div>
-      <div style={{ backgroundColor: "red", padding: 100 }}>
-      </div>
       <Reasons ref={targetRef} />
     </div>
   );
